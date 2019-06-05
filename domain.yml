@@ -1,25 +1,41 @@
 slots:
-  color:
+  size:
+        type: text
+  topping:
         type: text
 
 intents:
   - greet
-  - provide_color
+  - provide_size
+  - provide_topping
+  - provide_all
+  - provide_none
+  - provide_only_size
+  - provide_only_topping
 
 entities:
-  - color
+  - size
+  - topping
 
 actions:
 - utter_greet
-- utter_color
+- utter_size
+- utter_topping
+- utter_pizza
 - utter_bye
 
 templates:
   utter_greet:
-  - text: "Hey there! :) What is your favorite color?"
+  - text: "Hey there! :) What you want?"
+  
+  utter_size:
+  - text: "What size pizza you want ?"
 
-  utter_color:
-  - text: "Your favorite color is {color}."
+  utter_topping:
+  - text: "What toppings you would like on your pizza ?"
+
+  utter_pizza:
+  - text: "You want {size} {topping} pizza."
 
   utter_bye:
-  - text: "Bye, thanks for chatting with color bot!"
+  - text: "Bye, thanks for chatting with pizza bot!"

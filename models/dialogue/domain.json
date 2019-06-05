@@ -1,0 +1,23 @@
+{
+  "states": [
+    "intent_greet",
+    "intent_provide_all",
+    "intent_provide_none",
+    "intent_provide_only_size",
+    "intent_provide_only_topping",
+    "intent_provide_size",
+    "intent_provide_topping",
+    "entity_size",
+    "entity_topping",
+    "slot_size_0",
+    "slot_topping_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_greet",
+    "prev_utter_size",
+    "prev_utter_topping",
+    "prev_utter_pizza",
+    "prev_utter_bye"
+  ]
+}

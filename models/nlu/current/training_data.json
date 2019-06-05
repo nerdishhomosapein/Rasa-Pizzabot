@@ -1,0 +1,1210 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "moin"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "let's go"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "provide_all",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "large",
+            "entity": "size"
+          },
+          {
+            "start": 33,
+            "end": 39,
+            "value": "olives",
+            "entity": "topping"
+          }
+        ],
+        "text": "I want to order large pizza with olives"
+      },
+      {
+        "intent": "provide_all",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "small",
+            "entity": "size"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "olives",
+            "entity": "topping"
+          }
+        ],
+        "text": "I like small olvs pizza"
+      },
+      {
+        "intent": "provide_all",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "pepperoni",
+            "entity": "topping"
+          },
+          {
+            "start": 10,
+            "end": 14,
+            "value": "small",
+            "entity": "size"
+          }
+        ],
+        "text": "pepperoni smll pizza"
+      },
+      {
+        "intent": "provide_all",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "large",
+            "entity": "size"
+          },
+          {
+            "start": 5,
+            "end": 11,
+            "value": "onions",
+            "entity": "topping"
+          }
+        ],
+        "text": "larg onions"
+      },
+      {
+        "intent": "provide_all",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "large",
+            "entity": "size"
+          },
+          {
+            "start": 12,
+            "end": 20,
+            "value": "tomatoes",
+            "entity": "topping"
+          }
+        ],
+        "text": "I want lrge tomatoes pizza"
+      },
+      {
+        "intent": "provide_all",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "small",
+            "entity": "size"
+          },
+          {
+            "start": 27,
+            "end": 31,
+            "value": "corn",
+            "entity": "topping"
+          }
+        ],
+        "text": "My favorite pizza is Small corn"
+      },
+      {
+        "intent": "provide_all",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "medium",
+            "entity": "size"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "cheese",
+            "entity": "topping"
+          }
+        ],
+        "text": "I want a medium cheese pizza"
+      },
+      {
+        "intent": "provide_all",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "cheese",
+            "entity": "topping"
+          },
+          {
+            "start": 10,
+            "end": 15,
+            "value": "small",
+            "entity": "size"
+          }
+        ],
+        "text": "chese and SMALL"
+      },
+      {
+        "intent": "provide_all",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "medium",
+            "entity": "size"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "value": "olives",
+            "entity": "topping"
+          }
+        ],
+        "text": "mdm and Olives"
+      },
+      {
+        "intent": "provide_all",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "pepperoni",
+            "entity": "topping"
+          },
+          {
+            "start": 10,
+            "end": 13,
+            "value": "large",
+            "entity": "size"
+          }
+        ],
+        "text": "peperoni, lrg"
+      },
+      {
+        "intent": "provide_all",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "small",
+            "entity": "size"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "value": "tomatoes",
+            "entity": "topping"
+          }
+        ],
+        "text": "mall pizza with tmts topping"
+      },
+      {
+        "intent": "provide_all",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "medum",
+            "entity": "size"
+          },
+          {
+            "start": 11,
+            "end": 16,
+            "value": "onions",
+            "entity": "topping"
+          }
+        ],
+        "text": "medum with onion"
+      },
+      {
+        "intent": "provide_all",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "large",
+            "entity": "size"
+          },
+          {
+            "start": 6,
+            "end": 11,
+            "value": "corn",
+            "entity": "topping"
+          }
+        ],
+        "text": "LARGE corns"
+      },
+      {
+        "intent": "provide_all",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "large",
+            "entity": "size"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "cheese",
+            "entity": "topping"
+          }
+        ],
+        "text": "wnt to oder lrg chezze piza"
+      },
+      {
+        "intent": "provide_all",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "medium",
+            "entity": "size"
+          },
+          {
+            "start": 16,
+            "end": 23,
+            "value": "tomatoes",
+            "entity": "topping"
+          }
+        ],
+        "text": "wnt to odr mdim tamatas pija"
+      },
+      {
+        "intent": "provide_all",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "small",
+            "entity": "size"
+          },
+          {
+            "start": 18,
+            "end": 22,
+            "value": "corn",
+            "entity": "topping"
+          }
+        ],
+        "text": "wnt to ordr least carn pijja"
+      },
+      {
+        "intent": "provide_all",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "large",
+            "entity": "size"
+          },
+          {
+            "start": 11,
+            "end": 16,
+            "value": "pepperoni",
+            "entity": "topping"
+          }
+        ],
+        "text": "wont laarg peper pijaa"
+      },
+      {
+        "intent": "provide_all",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "medium",
+            "entity": "size"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "onions",
+            "entity": "topping"
+          }
+        ],
+        "text": "wnt mdm onins piza"
+      },
+      {
+        "intent": "provide_none",
+        "text": "I want pizza"
+      },
+      {
+        "intent": "provide_none",
+        "text": "I want to order a pizza"
+      },
+      {
+        "intent": "provide_none",
+        "text": "pizza"
+      },
+      {
+        "intent": "provide_none",
+        "text": "Pizza please"
+      },
+      {
+        "intent": "provide_none",
+        "text": "Pizza will do"
+      },
+      {
+        "intent": "provide_none",
+        "text": "Pizza"
+      },
+      {
+        "intent": "provide_none",
+        "text": "pijja"
+      },
+      {
+        "intent": "provide_none",
+        "text": "pija"
+      },
+      {
+        "intent": "provide_none",
+        "text": "pijaa"
+      },
+      {
+        "intent": "provide_none",
+        "text": "wnt to oder pija"
+      },
+      {
+        "intent": "provide_none",
+        "text": "I wnt to ordr a pijja"
+      },
+      {
+        "intent": "provide_none",
+        "text": "I wntt piza"
+      },
+      {
+        "intent": "provide_size",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "large",
+            "entity": "size"
+          }
+        ],
+        "text": "I want to order Large pizza"
+      },
+      {
+        "intent": "provide_size",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "large",
+            "entity": "size"
+          }
+        ],
+        "text": "I want a Laarg pizza"
+      },
+      {
+        "intent": "provide_size",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "large",
+            "entity": "size"
+          }
+        ],
+        "text": "I think its laarge"
+      },
+      {
+        "intent": "provide_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "medim",
+            "entity": "size"
+          }
+        ],
+        "text": "medim pija"
+      },
+      {
+        "intent": "provide_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "large",
+            "entity": "size"
+          }
+        ],
+        "text": "huge pijja"
+      },
+      {
+        "intent": "provide_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "small",
+            "entity": "size"
+          }
+        ],
+        "text": "Little piza"
+      },
+      {
+        "intent": "provide_size",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "medium",
+            "entity": "size"
+          }
+        ],
+        "text": "Probably avg"
+      },
+      {
+        "intent": "provide_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "small",
+            "entity": "size"
+          }
+        ],
+        "text": "smll"
+      },
+      {
+        "intent": "provide_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "large",
+            "entity": "size"
+          }
+        ],
+        "text": "lrg"
+      },
+      {
+        "intent": "provide_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "medium",
+            "entity": "size"
+          }
+        ],
+        "text": "midum"
+      },
+      {
+        "intent": "provide_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "large",
+            "entity": "size"
+          }
+        ],
+        "text": "large"
+      },
+      {
+        "intent": "provide_topping",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "olives",
+            "entity": "topping"
+          }
+        ],
+        "text": "I want to order pizza with OLIVES"
+      },
+      {
+        "intent": "provide_topping",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "cheese",
+            "entity": "topping"
+          }
+        ],
+        "text": "My favourite topping is cheze"
+      },
+      {
+        "intent": "provide_topping",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "olives",
+            "entity": "topping"
+          }
+        ],
+        "text": "I like olive"
+      },
+      {
+        "intent": "provide_topping",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "pepperoni",
+            "entity": "topping"
+          }
+        ],
+        "text": "Pepperoni is my favorite topping"
+      },
+      {
+        "intent": "provide_topping",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "onions",
+            "entity": "topping"
+          }
+        ],
+        "text": "Definitely onnion"
+      },
+      {
+        "intent": "provide_topping",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "tomatoes",
+            "entity": "topping"
+          }
+        ],
+        "text": "I love tomotos"
+      },
+      {
+        "intent": "provide_topping",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "corn",
+            "entity": "topping"
+          }
+        ],
+        "text": "favorite topping is Corns"
+      },
+      {
+        "intent": "provide_topping",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "cheese",
+            "entity": "topping"
+          }
+        ],
+        "text": "I love cheeze"
+      },
+      {
+        "intent": "provide_topping",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "cheese",
+            "entity": "topping"
+          }
+        ],
+        "text": "chesse"
+      },
+      {
+        "intent": "provide_topping",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "olives",
+            "entity": "topping"
+          }
+        ],
+        "text": "Oliv"
+      },
+      {
+        "intent": "provide_topping",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "pepperoni",
+            "entity": "topping"
+          }
+        ],
+        "text": "Peperroni"
+      },
+      {
+        "intent": "provide_topping",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "tomatoes",
+            "entity": "topping"
+          }
+        ],
+        "text": "tomotoes"
+      },
+      {
+        "intent": "provide_topping",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "onions",
+            "entity": "topping"
+          }
+        ],
+        "text": "Onions"
+      },
+      {
+        "intent": "provide_topping",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "tomatoes",
+            "entity": "topping"
+          }
+        ],
+        "text": "Corn"
+      },
+      {
+        "intent": "provide_only_size",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "large",
+            "entity": "size"
+          }
+        ],
+        "text": "I want to order larg pizza"
+      },
+      {
+        "intent": "provide_only_size",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "large",
+            "entity": "size"
+          }
+        ],
+        "text": "I want a large pizza"
+      },
+      {
+        "intent": "provide_only_size",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "large",
+            "entity": "size"
+          }
+        ],
+        "text": "I want a lrg pizza"
+      },
+      {
+        "intent": "provide_only_size",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "large",
+            "entity": "size"
+          }
+        ],
+        "text": "I think its bigest"
+      },
+      {
+        "intent": "provide_only_size",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "large",
+            "entity": "size"
+          }
+        ],
+        "text": "I want BIG pijja"
+      },
+      {
+        "intent": "provide_only_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "medium",
+            "entity": "size"
+          }
+        ],
+        "text": "Average pijza"
+      },
+      {
+        "intent": "provide_only_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "large",
+            "entity": "size"
+          }
+        ],
+        "text": "larg"
+      },
+      {
+        "intent": "provide_only_size",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "small",
+            "entity": "size"
+          }
+        ],
+        "text": "little"
+      },
+      {
+        "intent": "provide_only_size",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "medium",
+            "entity": "size"
+          }
+        ],
+        "text": "Probably MEDIUM"
+      },
+      {
+        "intent": "provide_only_size",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "large",
+            "entity": "size"
+          }
+        ],
+        "text": "i wnt lrg pija"
+      },
+      {
+        "intent": "provide_only_size",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "large",
+            "entity": "size"
+          }
+        ],
+        "text": "wnt lrge pizja"
+      },
+      {
+        "intent": "provide_only_size",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "small",
+            "entity": "size"
+          }
+        ],
+        "text": "wnt a smll piza"
+      },
+      {
+        "intent": "provide_only_topping",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "olives",
+            "entity": "topping"
+          }
+        ],
+        "text": "I want to order pizza with olivs"
+      },
+      {
+        "intent": "provide_only_topping",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "cheese",
+            "entity": "topping"
+          }
+        ],
+        "text": "My favourite topping is chesee"
+      },
+      {
+        "intent": "provide_only_topping",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "olives",
+            "entity": "topping"
+          }
+        ],
+        "text": "I like Olive"
+      },
+      {
+        "intent": "provide_only_topping",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "pepperoni",
+            "entity": "topping"
+          }
+        ],
+        "text": "pepper is my favorite topping"
+      },
+      {
+        "intent": "provide_only_topping",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "onions",
+            "entity": "topping"
+          }
+        ],
+        "text": "Definitely ONIONS"
+      },
+      {
+        "intent": "provide_only_topping",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "tomatoes",
+            "entity": "topping"
+          }
+        ],
+        "text": "I love Tomato"
+      },
+      {
+        "intent": "provide_only_topping",
+        "entities": [
+          {
+            "start": 20,
+            "end": 23,
+            "value": "corn",
+            "entity": "topping"
+          }
+        ],
+        "text": "favorite topping is crn"
+      },
+      {
+        "intent": "provide_only_topping",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "cheese",
+            "entity": "topping"
+          }
+        ],
+        "text": "I love cheej"
+      },
+      {
+        "intent": "provide_only_topping",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "cheese",
+            "entity": "topping"
+          }
+        ],
+        "text": "cheese"
+      },
+      {
+        "intent": "provide_only_topping",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "olives",
+            "entity": "topping"
+          }
+        ],
+        "text": "Olivs"
+      },
+      {
+        "intent": "provide_only_topping",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "pepperoni",
+            "entity": "topping"
+          }
+        ],
+        "text": "pepperonis"
+      },
+      {
+        "intent": "provide_only_topping",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "tomatoes",
+            "entity": "topping"
+          }
+        ],
+        "text": "Tomato"
+      },
+      {
+        "intent": "provide_only_topping",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "onions",
+            "entity": "topping"
+          }
+        ],
+        "text": "onon"
+      },
+      {
+        "intent": "provide_only_topping",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "corn",
+            "entity": "topping"
+          }
+        ],
+        "text": "korn"
+      },
+      {
+        "intent": "provide_only_topping",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "cheese",
+            "entity": "topping"
+          }
+        ],
+        "text": "I want Cheese pizza"
+      },
+      {
+        "intent": "provide_only_topping",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "onions",
+            "entity": "topping"
+          }
+        ],
+        "text": "I want a Onin pizza"
+      },
+      {
+        "intent": "provide_only_topping",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "cheese",
+            "entity": "topping"
+          }
+        ],
+        "text": "wnt cheze pijja"
+      },
+      {
+        "intent": "provide_only_topping",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "olives",
+            "entity": "topping"
+          }
+        ],
+        "text": "I wnt olvs pija"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": [
+      {
+        "value": "olives",
+        "synonyms": [
+          "olvs",
+          "Olives",
+          "OLIVES",
+          "olive",
+          "Oliv",
+          "olivs",
+          "Olive",
+          "Olivs"
+        ]
+      },
+      {
+        "value": "small",
+        "synonyms": [
+          "smll",
+          "Small",
+          "SMALL",
+          "mall",
+          "least",
+          "Little",
+          "little"
+        ]
+      },
+      {
+        "value": "large",
+        "synonyms": [
+          "larg",
+          "lrge",
+          "lrg",
+          "LARGE",
+          "laarg",
+          "Large",
+          "Laarg",
+          "laarge",
+          "huge",
+          "bigest",
+          "BIG"
+        ]
+      },
+      {
+        "value": "cheese",
+        "synonyms": [
+          "chese",
+          "chezze",
+          "cheze",
+          "cheeze",
+          "chesse",
+          "chesee",
+          "cheej",
+          "Cheese"
+        ]
+      },
+      {
+        "value": "medium",
+        "synonyms": [
+          "mdm",
+          "mdim",
+          "avg",
+          "midum",
+          "Average",
+          "MEDIUM"
+        ]
+      },
+      {
+        "value": "pepperoni",
+        "synonyms": [
+          "peperoni",
+          "peper",
+          "Pepperoni",
+          "Peperroni",
+          "pepper",
+          "pepperonis"
+        ]
+      },
+      {
+        "value": "tomatoes",
+        "synonyms": [
+          "tmts",
+          "tamatas",
+          "tomotos",
+          "tomotoes",
+          "Corn",
+          "Tomato"
+        ]
+      },
+      {
+        "value": "onions",
+        "synonyms": [
+          "onion",
+          "onins",
+          "onnion",
+          "Onions",
+          "ONIONS",
+          "onon",
+          "Onin"
+        ]
+      },
+      {
+        "value": "corn",
+        "synonyms": [
+          "corns",
+          "carn",
+          "Corns",
+          "crn",
+          "korn"
+        ]
+      }
+    ]
+  }
+}

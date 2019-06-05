@@ -1,0 +1,46 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_size
+- utter_topping
+- utter_pizza
+- utter_bye
+config:
+  store_entities_as_slots: true
+entities:
+- size
+- topping
+intents:
+- greet:
+    use_entities: true
+- provide_size:
+    use_entities: true
+- provide_topping:
+    use_entities: true
+- provide_all:
+    use_entities: true
+- provide_none:
+    use_entities: true
+- provide_only_size:
+    use_entities: true
+- provide_only_topping:
+    use_entities: true
+slots:
+  size:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  topping:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_bye:
+  - text: Bye, thanks for chatting with pizza bot!
+  utter_greet:
+  - text: Hey there! :) What you want?
+  utter_pizza:
+  - text: You want {size} {topping} pizza.
+  utter_size:
+  - text: What size pizza you want ?
+  utter_topping:
+  - text: What toppings you would like on your pizza ?
