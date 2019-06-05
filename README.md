@@ -1,4 +1,3 @@
-online training:
+https://medium.com/@henydixitdave/rasa-pizza-bot-mini-project-from-scratch-within-30-minutes-a5dc877abbf1?source=friends_link&sk=4672b276e9ec66c2ea79de9ff52df341
 
-python -m rasa_core.train \--online --dump_stories \-d domain.yml -s data/core/stories.md \-o models/dialogue \--endpoints endpoints.yml
-
+https://medium.com/@henydixitdave/rasa-pizza-bot-mini-project-from-scratch-within-30-minutes-a5dc877abbf1
